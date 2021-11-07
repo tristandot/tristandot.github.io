@@ -1,0 +1,131 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+    font-family: "729",hiragino sans,ヒラギノ角ゴ pro w4,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,ms pgothic,-system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,apple color emoji,segoe ui emoji,segoe ui symbol,sans-serif;
+    background-color: #fafafa;
+}
+nav ul, footer ul {
+
+    padding: 0px;
+    list-style: none;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #999;
+}
+
+.member a {
+  text-decoration: none;
+  color: #111;
+}
+
+li{
+  margin: 10px 0;
+  text-align: justify;
+}
+
+
+.container ul li {
+  font-size: 17px;
+}
+
+.cv-card {
+  padding: 10px;
+}
+
+.art-card {
+  padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+img {
+  width: 90%;
+  height: auto;
+  margin: 10px;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  color: #444;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.member-caption {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .member {
+    flex-direction: column;
+  }
+  .member .member-caption {
+    text-align: center;
+  }
+  * {
+    font-size: 14px;
+  }
+}
