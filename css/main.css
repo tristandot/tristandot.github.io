@@ -50,6 +50,8 @@ li{
 
 .cv-card {
   padding: 12px;
+  border-bottom: 1px solid #d5d5d5;
+
 }
 
 .subtitle {
@@ -57,9 +59,11 @@ li{
   margin-bottom: 0px;
 }
 
+
 .art-card {
-  padding: 12px;
+  padding: 15px;
   padding-top: 5px;
+  border-bottom: 1px solid #d5d5d5;
 }
 
 a {
