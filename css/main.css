@@ -2,7 +2,9 @@ body {
     margin: 60px auto;
     width: 70%;
     font-family: "729",hiragino sans,ヒラギノ角ゴ pro w4,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,ms pgothic,-system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,apple color emoji,segoe ui emoji,segoe ui symbol,sans-serif;
+    /*font-family: "Georgia";*/
     background-color: #fafafa;
+    /*background-color: #ffd;*/
 }
 nav ul, footer ul {
 
@@ -51,7 +53,10 @@ li{
 .cv-card {
   padding: 12px;
   border-bottom: 1px solid #d5d5d5;
+}
 
+.home-card {
+  padding: 12px;
 }
 
 .subtitle {
