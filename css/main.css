@@ -137,6 +137,10 @@ img {
   text-align: left;
 }
 
+.image-container {
+	padding-top: 4px;
+}
+
 @media (max-width: 768px) {
   .member {
     flex-direction: column;
@@ -144,7 +148,5 @@ img {
   .member .member-caption {
     text-align: center;
   }
-  * {
-    font-size: 14px;
-  }
+
 }
