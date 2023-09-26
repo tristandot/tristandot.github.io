@@ -11,17 +11,60 @@
 		<nav>
     		<ul>
         		<li><a href="index.html">Home</a></li>
-						<li><a href="research.html">Research</a></li>
-	        	<li><a href="cv.html">CV</a></li>
-        		<li><a href="art.html">Art</a></li>
+				<li><a href="research.html">Research & CV</a></li>
     		</ul>
 		</nav>
 		<div class="container">
     		<div class="blurb">
-	 <div class="member" style="display: flex; padding-left: 0%; padding-right: 10%;"><div class="member-img" style="display: flex; justify-content: center;"><img src="images/murphy.jpg" alt="" style="width: 150px; height: 150px; overflow: hidden; border-radius: 50%;"></div><div style="display: flex; flex-direction: column; padding-left: 3%; padding-right: 10%; justify-content: center;"><div class="member-caption" style="font-size: 20px;">Tristan Dot<div><a href="https://github.com/tristandot"><i class="fa fa-github fa member-favicon" style="padding: 0px;"></i></a><a href="https://scholar.google.com/citations?user=Pre_WyEAAAAJ&hl=fr"><i class="fa fa-google fa member-favicon" style="padding: 8px;"></i></a></div></div><div class="member-caption" style="font-size: 13px; padding-top: 5px; line-height: 2em;"><em>email:</em> tristan.dot [at] ens-paris-saclay.fr</div></div></div>
+	  <div class="member" style="display: flex; padding-left: 0%; padding-right: 10%;"><div class="member-img" style="display: flex; justify-content: center;"><img src="images/murphy.jpg" alt="" style="width: 150px; height: 150px; overflow: hidden; border-radius: 50%;"></div><div style="display: flex; flex-direction: column; padding-left: 3%; padding-right: 10%; justify-content: center;"><div class="member-caption" style="font-size: 20px;">Tristan Dot<div><a href="https://github.com/tristandot"><i class="fa fa-github fa member-favicon" style="padding: 0px;"></i></a><a href="https://scholar.google.com/citations?user=Pre_WyEAAAAJ&hl=fr"><i class="fa fa-google fa member-favicon" style="padding: 8px;"></i></a></div></div><div class="member-caption" style="font-size: 13px; padding-top: 5px; line-height: 2em;"><a href="https://www.english.cam.ac.uk/people/graduates/Tristan.Dot">Tristan's faculty page</a></div><div class="member-caption" style="font-size: 13px; padding-top: 5px; line-height: 2em;"><em>email:</em> td479 [at] cam.ac.uk</div></div></div> 
 
-				<p>PhD candidate in digital art history at Cambridge University, trying to link art history theories with machine learning representations. My research is funded by a Gates Cambridge scholarship. Before focusing on art history, I applied machine learning techniques to biological and medical research.</p>
+										
+					<p> Tristan is a PhD candidate in digital art history at the University of Cambridge. He is working on 19th century textile patterns in Great Britain, their diversification and diffusion through the Jacquard loom and grammars of ornaments. He is also interested in the epistemology, and long historiography of digital art history – in particular, its links with formalism and structuralism.</p>
+					
 
+<div class="image-container">
+        <img id="randomImage" src="" alt="Random Image" class='center index'>
+        <div class="caption" id="imageCaption" class = 'center'></div>
+    </div>
+	
+	<script>
+	        var imageAndCaptionUrls = [
+	            { imageUrl: 'images/visite.jpg', caption: "La Visite du Duc d'Aumale chez Carquillat, woven in silk by Carquillat, 109 cm x 85.7 cm, Lyon, 1844."},
+	            { imageUrl: 'images/stjohns.jpg', caption: "Miniature, illuminated manuscript, St John's College Cambridge (f. 143r, MS T.8), early 15th century." },
+	            { imageUrl: 'images/nake_matrix_multiplication.jpg', caption: 'Frieder Nake, <em>Matrix Multiplication Series 34</em>, 1968.' },
+				{ imageUrl: 'images/Morris_and_Company_Weaving_at_Merton_Abbey.jpg', caption: "The Weaving Shed at Merton Abbey c. 1890 from Morris & Company,  <em>A Brief Sketch Of The Morris Movement</em>, 1911." },
+				{ imageUrl: 'images/alberti.jpg', caption: 'Leon Battista Alberti, <em>De Pittura</em> (Paris: Rafaelle de Fresne, 1651), Woodcut illustrations.' },
+				{ imageUrl: 'images/impro_tissu.jpg', caption: "Édouard Gand, <em>Le transpositeur ou l'improvisateur de tissus appareil non breveté basé sur la théorie des nombres premiers et des progressions arithmétiques ascendantes donnant un nombre infini de combinaisons à l'usage des compositeurs de tissus et des dessinateurs</em>, 1871, p. III, J. Baudry, Paris." },
+				{ imageUrl: 'images/martin.jpg', caption: 'Agnes Martin, <em>Summer</em>, 1964.' },
+				{ imageUrl: 'images/3D.jpg', caption: 'University of Utah, <em>Chess board simulation assembled from geometric primitives</em>, 1968, J. Willard Marriott Library, University of Utah, Salt Lake City. Presented in Gaboury, <em>Image Objects</em>, p. 312.' },
+				{ imageUrl: 'images/checkerboard.jpg', caption: 'Woven checkerboard.' },
+				{ imageUrl: 'images/rhythmisches.jpg', caption: 'Paul Klee, <em>Rhythmisches</em>, 1930, Centre Pompidou, Paris.' },
+				{ imageUrl: 'images/kelly.jpg', caption: 'Ellsworth Kelly, <em>Spectrum Colors Arranged by Chance</em>, 1951-1953.' },
+				{ imageUrl: 'images/klee.jpg', caption: 'Paul Klee, <em>Highway and Byways</em>, 1929, Museum Ludwig, Cologne.' },
+				{ imageUrl: 'images/levistrauss.jpg', caption: 'Diagram. Claude Levi-Strauss, “The structural study of myth”, <em>The journal of American folklore</em>, 1955.' },
+				{ imageUrl: 'images/malevitch.jpg', caption: 'Kazimir Malevich, <em>Samovar</em>, 1913, Oil on canvas, MoMA, New York.' },
+				{ imageUrl: 'images/weaving.jpg', caption: 'Diagram. Three fundamental types of textile weaves.' },
+				{ imageUrl: 'images/krauss.jpg', caption: 'Diagram. Rosalind Krauss, “Sculpture in the Expanded Field”, <em>October</em>, 1979.' },
+				{ imageUrl: 'images/nake_klee.jpg', caption: 'Frieder Nake, <em>Hommage à Paul Klee</em>, 1965.' }
+	            // Add more image URLs and captions here
+	        ];
+
+	        function loadRandomImage() {
+	            var randomIndex = Math.floor(Math.random() * imageAndCaptionUrls.length);
+	            var randomImage = imageAndCaptionUrls[randomIndex];
+
+	            var imageElement = document.getElementById('randomImage');
+	            var captionElement = document.getElementById('imageCaption');
+
+	            imageElement.src = randomImage.imageUrl;
+	            captionElement.innerHTML = randomImage.caption;
+	        }
+
+	        // Call the loadRandomImage function when the page is fully loaded
+	        window.addEventListener('load', loadRandomImage);
+	    </script>
+	
+  
 
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->

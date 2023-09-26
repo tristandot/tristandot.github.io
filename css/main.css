@@ -3,8 +3,8 @@ body {
     width: 70%;
     font-family: "729",hiragino sans,ヒラギノ角ゴ pro w4,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,ms pgothic,-system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,apple color emoji,segoe ui emoji,segoe ui symbol,sans-serif;
     /*font-family: "Georgia";*/
-    background-color: #fafafa;
-    /*background-color: #ffd;*/
+    /*background-color: #fafafa;*/
+    background-color: #ffd;
 }
 nav ul, footer ul {
 
@@ -37,7 +37,7 @@ nav ul li a {
 
 .member a {
   text-decoration: none;
-  color: #111;
+  color: #999;
 }
 
 li{
@@ -73,7 +73,7 @@ li{
 
 a {
     text-decoration: none;
-    color: blue;
+    color: color: #999;
 }
 a:hover {
     text-decoration: underline;
@@ -102,6 +102,11 @@ footer {
     font-size: .8em;
 }
 
+.caption {
+	text-align: center;
+	font-size: 0.8em;
+}
+
 ul.posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
@@ -121,6 +126,11 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.index {
+	width: 500px;
+	height: auto;
 }
 
 .member-caption {
